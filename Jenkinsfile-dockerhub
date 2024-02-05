@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('hardedahyor')
+    DOCKERHUB_CREDENTIALS = credentials('hardedahyor-dockerhub')
     APP_NAME = "hardedahyor/amazon"
     }
     stages { 
